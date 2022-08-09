@@ -1,0 +1,6 @@
+hii
+
+git config --global user.email "mdearnestm@gmail.com"
+git config --global user.name "EarnestMD"
+
+git filter-branch --env-filter 'export GIT_AUTHOR_EMAIL="mdearnestm@gmail.com";GIT_AUTHOR_NAME="EarnestMD"'
